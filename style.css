@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+
+* {
+  font-family: 'Vollkorn', serif;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+  /* background: red; */
+  margin: 0;
+}
+
+button {
+  margin-left: 20px;
+
+}
+
+.navbar {
+  z-index: 10;
+  position: absolute;
+  margin: 20px;
+}
+
+h1 {
+  right: 50%;
+}
+
+.wrapper {
+  position: absolute;
+  /* background: lime; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chart {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}

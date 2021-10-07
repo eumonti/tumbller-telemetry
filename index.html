@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telemetria Tumbller</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="status">Disconnesso.</div>
+      <button type="button" class="btn btn-light" id="start-btn">
+        Connetti
+      </button>
+      <button type="button" class="btn btn-light" id="pause-btn">Pausa</button>
+    </div>
+    <div class="wrapper">
+      <div id="chart"></div>
+    </div>
+    <footer><p>Realizzato da Eugenio Montinaro</p></footer>
+    <script src="js/BluetoothTerminal.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
